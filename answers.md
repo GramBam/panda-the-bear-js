@@ -33,3 +33,14 @@ $('.bio-info').empty();
 $('#right-image img').clone().appendTo('form');
 
 for (i = 0; i < 10; i++) { $('#right-image img').clone().appendTo('form'); }
+
+
+var listItem = document.createElement('li');
+var leftSpan = document.createElement('span');
+var lastUpdated = document.createTextNode('Page last updated on');
+leftSpan.appendChild(lastUpdated);
+listItem.appendChild(leftSpan);
+var rightSpan = document.createElement('span');
+var date = document.createTextNode(Date());
+rightSpan.appendChild(date);
+listItem.appendChild(rightSpan);
