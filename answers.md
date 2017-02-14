@@ -16,6 +16,10 @@ $('h1').css('font-family', 'monospace');
 
 $('p.action-icon').css('color', 'black');
 
-$('#name'),attr('placeholder', 'Identify Yourself');
+$('#name').attr('placeholder', 'Identify Yourself');
 
-$('#message'),attr('placeholder', 'State Your Business');
+$('#message').attr('placeholder', 'State Your Business');
+
+$('#message').attr('value', 'Your Nemesis');
+
+$('#email').attr('value', 'koalathebear@gmail.com');
