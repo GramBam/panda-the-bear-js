@@ -7,3 +7,7 @@ $('h1').text('Graham');
 $("#employment .info-title").text('Unemployed');
 
 $('#time-travel').parent().remove();
+
+$('body').css('color', 'red');
+
+$('.highlight').css('color', 'blue')
