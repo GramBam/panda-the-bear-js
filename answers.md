@@ -10,4 +10,8 @@ $('#time-travel').parent().remove();
 
 $('body').css('color', 'red');
 
-$('.highlight').css('color', 'blue')
+$('.highlight').css('color', 'blue');
+
+$('h1').css('font-family', 'monospace');
+
+$('p.action-icon').css('color', 'black');
