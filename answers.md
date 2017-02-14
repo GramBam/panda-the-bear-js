@@ -20,8 +20,12 @@ $('#name').attr('placeholder', 'Identify Yourself');
 
 $('#message').attr('placeholder', 'State Your Business');
 
-$('#message').attr('value', 'Your Nemesis');
+$('#name').attr('value', 'Your Nemesis');
 
 $('#email').attr('value', 'koalathebear@gmail.com');
 
 $('#submit').attr('value', 'En garde!');
+
+$('#submit').attr('disabled', 'disabled');
+
+$('.bio-info').empty();
