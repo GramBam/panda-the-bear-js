@@ -15,3 +15,7 @@ $('.highlight').css('color', 'blue');
 $('h1').css('font-family', 'monospace');
 
 $('p.action-icon').css('color', 'black');
+
+$('#name'),attr('placeholder', 'Identify Yourself');
+
+$('#message'),attr('placeholder', 'State Your Business');
